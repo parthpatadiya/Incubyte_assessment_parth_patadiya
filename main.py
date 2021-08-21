@@ -7,6 +7,10 @@ file_path="data.csv"
 data,bad_data=dc.data_cleaning(file_path)
 bad_data.to_csv("bad_data.csv",sep="|")
 
+#credentials
+sql_crud.db_name="incubyte"
+sql_crud.user_name="root"
+sql_crud.password="12345"
 
 
 # Common Table Fields 
